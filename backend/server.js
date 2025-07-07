@@ -1,6 +1,4 @@
-///////////////////////////////////
-// ✅ Full Working Backend Code  //
-///////////////////////////////////
+
 
 import express from "express";
 import cors from "cors";
@@ -51,7 +49,7 @@ app.get("/get-temp", (req, res) => {
 ///////////////////////////
 // Log Temperature Route //
 ///////////////////////////
-
+// http://localhost:5000/log-temp
 app.post("/log-temp", (req, res) => {
   const auth = req.headers.authorization;
   if (auth !== "admin123") return res.send("unauthorized access");
