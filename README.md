@@ -1,5 +1,5 @@
 # MERN + InfluxDB + Grafana Realtime Monitoring Project
-aastha
+
 Is project me MERN Stack, InfluxDB aur Grafana ko integrate kiya gaya hai, jisme tum real-time temperature ya sensor data ko log karke easily visualize kar sakte ho.
 
 ## Tech Stack
